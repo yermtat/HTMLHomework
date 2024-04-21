@@ -1,0 +1,26 @@
+.fruits-list{
+    list-style: none;
+    background-color: lightpink;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.fruit-item{
+    background-color: palevioletred;
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.fruit-item span{
+    background-color: brown;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

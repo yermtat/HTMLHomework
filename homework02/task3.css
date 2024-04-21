@@ -1,0 +1,25 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 30px;
+}
+
+.type {
+  font-style: italic;
+}
+
+.description-item p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.example {
+  color: gray;
+}
+
+.example span {
+  font-weight: bolder;
+}
+
+.synonyms span {
+  color: indigo;
+}
