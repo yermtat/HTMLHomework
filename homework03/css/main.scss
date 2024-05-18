@@ -1,0 +1,100 @@
+@import "global-style";
+
+.main-container {
+  position: relative;
+
+  .background-container {
+    width: 00%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+
+    .background-pic {
+      position: relative;
+      z-index: -1;
+    }
+
+    .above-backround {
+      position: absolute;
+      width: 960px;
+      margin: 0 auto;
+      padding: 0;
+      min-height: 666px;
+      z-index: 1;
+      top: 36%;
+      left: 0%;
+      float: left;
+      display: flex;
+      margin-left: 10px;
+      margin-right: 10px;
+      justify-content: center;
+
+      h2 {
+        font-weight: normal;
+        position: absolute;
+        z-index: 50;
+        font-family: "Oswald";
+        font-size: 52px;
+        line-height: 56px;
+        min-width: 50px;
+        color: #414146;
+        background-color: #ffea00;
+        display: inline-block !important;
+        padding: 14px 20px 15px;
+        margin: 0;
+      }
+
+      p {
+        font-weight: normal;
+        position: absolute;
+        z-index: 50;
+        font-family: "Oswald";
+        font-size: 18px;
+        min-width: 50px;
+        color: #fff;
+        background-color: #565a60;
+        display: inline-block;
+        padding: 10px 20px;
+        line-height: 30px;
+        top: 80px;
+        left: 26%;
+      }
+
+      .links {
+        max-width: 480px;
+        min-width: 480px;
+        position: absolute;
+        z-index: 50;
+        bottom: 30%;
+        font-family: "Oswald";
+        float: left;
+        left: 9%;
+        top: 190px;
+
+        .word-link {
+          font-size: 14px;
+          line-height: 36px;
+          height: 36px;
+          padding: 0px 20px 0px 20px;
+          display: inline-block;
+          background-color: #414146;
+          color: #fff;
+          margin-right: 36px;
+          position: relative;
+          text-decoration: none;
+
+          ::after {
+            content: "";
+            right: -36px;
+            position: absolute;
+            width: 36px;
+            height: 36px;
+            background-color: #ffea00 !important;
+            background-image: url(http://abcgomel.ru/solana/images/arrow-rm.png);
+            background-position: center;
+          }
+        }
+      }
+    }
+  }
+}
